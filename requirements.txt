@@ -3,6 +3,6 @@ matplotlib
 numpy==1.16.0
 pandas
 pandas_datareader==0.10.0
-scikit_learn==1.4.2
+scikit_learn
 streamlit==1.32.0
-yfinance==0.2.41
+yfinance
