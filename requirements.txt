@@ -1,9 +1,0 @@
-keras
-numpy
-pandas_datareader==0.10.0
-tensorflow
-streamlit==0.52.1
-pandas
-matplotlib
-scikit_learn
-yfinance
