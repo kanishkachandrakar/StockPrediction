@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import pandas_datareader as data
 import yfinance as yf
 from tensorflow.keras.models import Sequential
+from keras.models import load_model
 import streamlit as st
 
 
