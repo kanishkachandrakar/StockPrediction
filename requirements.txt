@@ -1,8 +1,8 @@
-keras
-matplotlib
+keras==3.4.1
+matplotlib==3.8.4
 numpy==1.16.0
-pandas
+pandas==2.2.2
 pandas_datareader==0.10.0
-scikit_learn
-streamlit
-yfinance
+scikit_learn==1.4.2
+streamlit==1.32.0
+yfinance==0.2.41
