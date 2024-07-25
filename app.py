@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import pandas_datareader as data
 import yfinance as yf
-from tensorflow import keras
+from keras.model import Load_model
 import streamlit as st
 
 
