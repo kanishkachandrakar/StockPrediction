@@ -11,10 +11,10 @@ import streamlit as st
 st.title('Stock Trend Prediction')
 
 user_input = st.text_input('Enter Stock Ticker', 'AAPL')
-df = yf.download(user_input, start = '2010-01-01', end='2019-12-31')
+df = yf.download(user_input, start = '2014-01-01', end='2024-12-31')
 
 #Describing data
-st.subheader('Data from 2010 - 2019')
+st.subheader('Data from 2014 - 2024')
 st.write(df.describe())
 
 #Visualization
@@ -53,7 +53,7 @@ data_training_array = scaler.fit_transform(data_training)
 
 
 #Moad model
-model = load_model('keras_model.h5')
+model = Load_model('keras_model2.h5')
 
 
 #tetsing part
