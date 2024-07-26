@@ -53,7 +53,7 @@ data_training_array = scaler.fit_transform(data_training)
 
 
 #Moad model
-model = Load_model('keras_model2.h5')
+model = load_model('keras_model2.h5')
 
 
 #tetsing part
